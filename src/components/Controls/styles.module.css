@@ -1,0 +1,9 @@
+.controls {
+  bottom: 20px;
+  display: flex;
+  height: 75px;
+  gap: 20px;
+  padding-inline: 20px;
+  position: fixed;
+  width: 100%;
+}

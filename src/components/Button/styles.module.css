@@ -1,0 +1,11 @@
+.button {
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  font-size: 32px;
+  font-family: inherit;
+  color: white;
+  height: 75px;
+  padding-inline: 20px;
+  width: 100%;
+}

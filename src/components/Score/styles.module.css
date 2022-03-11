@@ -1,0 +1,18 @@
+.score {
+  margin-top: calc(50vh - 75px);
+  transform: translateY(-50%);
+}
+.ratio {
+  padding-inline: 20px;
+  position: relative;
+  text-align: center;
+}
+.ratio p {
+  font-size: 150px;
+  line-height: 125px;
+}
+
+.metrics {
+  padding-inline: 20px;
+  text-align: center;
+}
