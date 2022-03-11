@@ -3,6 +3,7 @@
   display: flex;
   height: 75px;
   gap: 20px;
+  max-width: 768px;
   padding-inline: 20px;
   position: fixed;
   width: 100%;
