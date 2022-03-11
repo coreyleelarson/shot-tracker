@@ -1,6 +1,6 @@
 {
-  "name": "scorekeeper",
-  "homepage": "https://coreyleelarson.github.io/scorekeeper",
+  "name": "shot-tracker",
+  "homepage": "https://coreyleelarson.github.io/shot-tracker",
   "private": true,
   "version": "0.0.0",
   "scripts": {
