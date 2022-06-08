@@ -3,13 +3,14 @@ import { useEffect, useRef } from "react";
 import styles from './styles.module.css';
 
 interface ScoreProps {
+  bestStreak: number;
   makes: number;
   misses: number;
   streak: number;
 }
 
 export const Score = (props: ScoreProps) => {
-  const { makes, misses, streak } = props;
+  const { bestStreak, makes, misses, streak } = props;
   const scoreRef = useRef(null);
   const metricsRef = useRef(null);
   const total = makes + misses;
@@ -34,7 +35,7 @@ export const Score = (props: ScoreProps) => {
         <div><p ref={scoreRef}>{makes} / {total}</p></div>
       </div>
       <div className={styles.metrics}>
-        <div><p ref={metricsRef}>Streak: {streak} | Percentage: {percentage}%</p></div>
+        <div><p ref={metricsRef}>Streak: {streak} | Best Streak: {bestStreak} | Percentage: {percentage}%</p></div>
       </div>
     </div>
   );
